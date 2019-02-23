@@ -7,6 +7,8 @@
 
 -Run migration to create the table. Then run the command to populate database with value from the CSV
 ```bash
+npm install -g @adonisjs/cli
+
 adonis migration:run
 adonis import:csv full/path/to/csv/file
 
